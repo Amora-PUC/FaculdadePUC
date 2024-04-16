@@ -10,3 +10,4 @@ int main(){
 		printf("A area deste circulo e de: %f", area);
 	}
 }
+	
