@@ -5,5 +5,8 @@ int main(){
 	float raio, area, pi=3.14;
 	printf("Digite o raio do circulo que deseja saber a area: \n");
 	scanf("%f", &raio);
-	area= pi*(raio*raio);
-	printf("A area deste circulo e de: %f", area);
+	if(raio>0){
+		area= pi*(raio*raio);
+		printf("A area deste circulo e de: %f", area);
+	}
+}
